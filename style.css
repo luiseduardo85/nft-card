@@ -144,18 +144,13 @@ h2{
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 385px) {
     
-    body{
-        display: grid;
-        place-content: center;
+    .card {
+        width: 90%;
     }
 
-    .main-container{
-        margin-left: 10px;
-        padding: auto;
-    }
-
+}
     .card {
         width: 90%;
     }
