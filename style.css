@@ -137,18 +137,22 @@ h2{
     cursor: pointer;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .main-container {
         width: 100%;
     }
-
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 375px) {
     
+    .main-container{
+        display: grid;
+        place-content: center;
+    }
     .card {
         width: 90%;
     }
 
+}
 }
